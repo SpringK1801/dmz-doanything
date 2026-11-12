@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GPL-3.0-or-later"
+
+[[mods]]
+modId="dbzdoanything"
+version="${version}"
+displayName="DMZ Do Anything"
+description="A live race and transformation editor for Dragon Mine Z."
+
+[[dependencies.dbzdoanything]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.dbzdoanything]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10],[47.4.28]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.dbzdoanything]]
+modId="dragonminez"
+mandatory=true
+versionRange="[2.2.1]"
+ordering="AFTER"
+side="BOTH"

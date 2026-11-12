@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "dev.dbzdoanything.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": ["ConfigAccess", "ConfigReloadMixin", "CreateCharacterMixin", "RacialAccess", "FormEligibilityMixin",
+    "TrainingPointsRuleMixin", "TrainingRewardRuleMixin", "StatSpendingRuleMixin", "SkillPurchaseRuleMixin",
+    "SkillWishAccess", "WishRuleMixin", "MasterFormRuleMixin"],
+  "client": ["LanguageMixin", "RaceChooserMixin", "PreviewFormMixin"],
+  "injectors": {"defaultRequire": 1}
+}

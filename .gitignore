@@ -1,0 +1,7 @@
+/.gradle/
+/.raceplus-tools/
+/build/
+/run/
+/dbz/*.jar
+/evidence/
+/mod-description-banner.png
